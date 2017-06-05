@@ -95,24 +95,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Special values for name such as "page" and "site" will be autofilled
     #  name = "page"
 
-  # Social settings
-  # You may change these with your social links or add others
-
-  [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "https://twitter.com/ro_fantastic"
-
-  [[params.social]]
-    title = "Instagram"
-    icon = "fa-instagram"
-    link = "https://www.instagram.com/ro_karan/"
-    
-  [[params.social]]
-    title = "Facebook"
-    icon = "fa-facebook"
-    link = "https://www.facebook.com/rohan.karanth"
-
   # Footer settings
   [params.footer]
     # If copyright is not set, author is used
