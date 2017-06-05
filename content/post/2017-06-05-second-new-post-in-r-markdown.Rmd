@@ -1,0 +1,33 @@
+---
+title: Second New Post (in R Markdown)
+author: Rohan Karanth
+date: '2017-06-05'
+slug: second-new-post-in-r-markdown
+categories: []
+tags: []
+---
+
+##Intro
+Hey guys for my first R Markdown post, I wanted to share with you guys a quick analysis I did of Motor Trend Car Road Test Data. It's a little rough but I hope to continue to improve my skills in R. Any feedback you have is appreciated. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## Miles per Gallon Summary Statistics
+```{r mtcars, echo = FALSE}
+summary(mtcars$mpg)
+```
+
+
+## Effects of Different Car Features on MPG
+
+```{r mtcars2, echo=FALSE}
+mtcars$am = factor(x = mtcars[,9], levels = c("0","1"), labels = c("Automatic","Manual"))
+ggplot(data = mtcars, aes(x = hp, y = mpg, color = wt)) + geom_point()  + ggtitle("Effect of Horsepower and Weight on Miles per Gallon") + geom_smooth(method = "lm") + xlab("Horsepower") + ylab("Miles per Gallon") + labs(color = "Weight (1000 lbs)\n")
+```
+
+There appears to be a negative correlation between horsepower and miles per gallon for the vehicles as well as weight and miles per gallon.Weight and Horsepower also appear to be positively correlated. Thus as one increases in weight and horsepower miles per gallon decreases. Thus, if one wanted a more fuel efficient car they would likely have to settle for lower weight and horsepower. Vice versa, if one wants a car with a lot of horsepower the customer would likely need to compromise on fuel efficiency.
+
+
