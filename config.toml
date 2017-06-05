@@ -95,6 +95,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Special values for name such as "page" and "site" will be autofilled
     #  name = "page"
 
+
   # Footer settings
   [params.footer]
     # If copyright is not set, author is used
