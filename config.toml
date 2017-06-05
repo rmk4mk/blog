@@ -45,7 +45,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Avatars can be written to images/avatars/
     avatar = "rohan.jpg"
     position = "Student at UVA"
-    livesIn = "[Charlottesville, Virginia](#https://www.google.co.za/maps/place/Charlottesville,+VA,+USA/@38.0400823,-78.5199935,13z/data=!3m1!4b1!4m5!3m4!1s0x89b3862dea50a48f:0x9086f096c38b74fc!8m2!3d38.0293059!4d-78.4766781?hl=en)"
+    livesIn = "[Charlottesville, Virginia](https://www.google.co.za/maps/place/Charlottesville,+VA,+USA/@38.0400823,-78.5199935,13z/data=!3m1!4b1!4m5!3m4!1s0x89b3862dea50a48f:0x9086f096c38b74fc!8m2!3d38.0293059!4d-78.4766781?hl=en)"
     biography = """Rohan Karanth is plain awesome. He's a rising third year at UVA majoring in Systems Engineering."""
 
   # Contact form settings
