@@ -101,17 +101,17 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   [[params.social]]
     title = "Twitter"
     icon = "fa-twitter"
-    link = "#"
+    link = "https://twitter.com/ro_fantastic"
 
   [[params.social]]
     title = "Instagram"
     icon = "fa-instagram"
-    link = "#"
+    link = "https://www.instagram.com/ro_karan/"
     
   [[params.social]]
     title = "Facebook"
     icon = "fa-facebook"
-    link = "#"
+    link = "https://www.facebook.com/rohan.karanth"
 
   # Footer settings
   [params.footer]
